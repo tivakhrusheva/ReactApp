@@ -7,7 +7,7 @@
 ![image](https://github.com/tivakhrusheva/ReactApp/assets/91075802/b00afbef-e7b8-4e42-ba0c-e071d424a13d)
 
 
-Все компоненты расположены в папке /src/components. Хуки useState и useEffect используются в компонентах **ButtonCounter** и .. соответственно.
+Все компоненты расположены в папке /src/components. Хук useState используется в компоненте **ButtonCounter** для изменения счетчика.
 
 Для маршрутизации с помощью библиотеки react-router-dom в App.jsx был создан роутер: при развертывании приложения по эндпойнту /Havic HV G-92 Gamepad  находится страница с описанием продукта, а по эндпойнту /Cart -- с корзиной. Перейти на страницу /Cart со страницы /Havic HV G-92 Gamepad можно при нажатии на кнопку Buy Now:
 
