@@ -1,0 +1,117 @@
+.category_rectangle_child,
+.underline_parent {
+  position: absolute;
+  border-radius: var(--br-9xs);
+  left: 100px;
+}
+
+.underline_parent {
+  top: 743px;
+  border: 1px solid var(--primary-gray);
+  box-sizing: border-box;
+  width: 399px;
+  height: 180px;
+  /* overflow: hidden; */
+  font-size: var(--font-size-m);
+}
+
+.underline_icon {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    width: 400px;
+    height: 1px;
+    opacity: 0.5;
+  }
+
+.icon_delivery, .icon_return {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+}
+
+.icon_delivery {
+    bottom: 630px;
+    }
+  
+.icon_return {
+    bottom: 600px;
+    }
+  
+.enter_your_postal {
+    position: absolute;
+    bottom: 5px;
+    font-size: var(--font-size-xs);
+    text-decoration: underline;
+    line-height: 18px;
+    font-weight: var(--font-weight-normal);
+    }
+.free_delivery_parent,
+.icon_delivery_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    position: absolute;
+    bottom: 620px;
+    }
+.icon_delivery_parent {
+    position: absolute;
+    top: 704px;
+    left: 100px;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-base);
+    }
+
+.add_to_cart {
+    position: absolute;
+    top: calc(30% - 15px);
+    line-height: 24px;
+    bottom: 0px;
+    font-weight: var(--font-weight-normal);
+}
+
+.add_to_cart1 {
+    position: absolute;
+    top: calc(30% - 55px);
+    left: calc(50%-48px);
+    font-size: var(--font-size-m);
+    line-height: 24px;
+    font-weight: var(--font-weight-normal);
+}
+
+.icon_return_parent {
+    position: absolute;
+    top: 740px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.category_rectangle_child,
+.underline_parent {
+    position: absolute;
+    border-radius: var(--br-9xs);
+    left: 0px;
+    top: 420px;
+}
+
+.free_30_days_container {
+    position: absolute;
+    font-size: var(--font-size-xs);
+    line-height: 18px;
+    font-weight: var(--font-weight-normal);
+    top: 20px;
+}
+
+.details {
+    text-decoration: underline;
+}

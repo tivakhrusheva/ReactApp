@@ -1,0 +1,21 @@
+.view_all_products {
+    vertical-align: baseline;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.button {
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    font: inherit;
+    vertical-align: baseline;
+    border-radius: var(--br-9xs);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base) var(--padding-29xl);
+}

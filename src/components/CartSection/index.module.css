@@ -1,0 +1,200 @@
+.cart_section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: #fff;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    width: 1170px;
+    height: 102px;
+    overflow: hidden;
+    flex-shrink: 0;
+    bottom: 1760px;
+    left: 200px;
+}
+
+.div2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 39px;
+    left: 387px;
+    line-height: 24px;
+}
+
+.div3 {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 39px;
+    line-height: 24px;
+    left: 1063px;
+}
+
+.quantity1 {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 27.5px;
+    left: 708.5px;
+    border-radius: var(--br-9xs);
+    border: 1.5px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 75px;
+    height: 47px;
+    overflow: hidden;
+}
+
+.parent {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+display: flex;
+justify-content: flex-start;
+position: absolute;
+top: 6px;
+left: 12px;
+width: 48px;
+flex-direction: row;
+align-items: center;
+gap: var(--gap-base);
+}
+
+
+.product {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+position: relative;
+line-height: 24px;
+}
+
+.drop_up_small_parent {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+
+.drop_up_small_icon {margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.monitor_cart_small {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 545px);
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+}
+
+.g27cq4_500x500_1_icon{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    height: 72.22%;
+    width: 92.59%;
+    top: 14.81%;
+    right: 3.7%;
+    bottom: 12.96%;
+    left: 3.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.lcd_monitor {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+position: absolute;
+top: 39px;
+left: 114px;
+line-height: 24px;
+}
+
+.icon_cancel {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+
+
+.update_button {
+    position: absolute;
+    left: 1200px;
+    bottom: 200px;
+  }
+
+.view_all_products {
+    vertical-align: baseline;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.button {
+    bottom: 200px;
+    right: 50px;
+}
+
+.button, .update_button{
+    position: absolute;
+    font: inherit;
+    vertical-align: baseline;
+    border-radius: var(--br-9xs);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base) var(--padding-29xl);
+}

@@ -1,0 +1,196 @@
+.discount_percent_parent {
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--secondary-beige);
+    width: 270px;
+    height: 250px;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+}
+
+.parent {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    color: var(--primary-red);
+}
+
+.fill_heart_icon {
+    position: relative;
+    width: 34px;
+    height: 34px;
+}
+
+.gammaxx_l240_argb_1_500x500_1_wrapper {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    width: 190px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gammaxx_l240_argb_1_500x500_1_icon {
+    position: absolute;
+    top: calc(50% - 43px);
+    left: calc(50% - 95px);
+    width: 191px;
+    height: 95px;
+    object-fit: cover;
+}
+
+.g27cq4_500x500_1_icon {
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    width: 170px;
+    height: 129px;
+    object-fit: cover;
+}
+
+.g92_2_500x500_1_wrapper {
+    position: absolute;
+    top: calc(50% - 90px);
+    left: calc(50% - 95px);
+    width: 190px;
+    height: 180px;
+    /* overflow: hidden; */
+}
+
+.g92_2_500x500_1_icon {
+    position: absolute;
+    top: calc(50% - 76px);
+    left: calc(50% - 86px);
+    width: 172px;
+    height: 152px;
+    object-fit: cover;
+}
+
+.cart, .itemTitle {
+    position: relative;
+    line-height: 24px;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-m);
+    font-family: var(--font-family-poppins);
+}
+.cart {
+    color: var(--primary-red)
+}
+
+.div2 {
+    position: relative;
+    line-height: 18px;
+}
+
+.div4 {
+    position: relative;
+    text-decoration: line-through;
+    line-height: 24px;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-normal);
+    color: var(--primary-black);
+    opacity: 0.5;
+}
+
+.div5 {
+    position: relative;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: var(--font-size-m);
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    flex-shrink: 0;
+    opacity: 0.5;
+}
+
+.rectangle_div {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 var(--br-9xs) var(--br-9xs);
+    background-color: var(--primary-black);
+    height: 41px;
+}
+
+.cart_adding {
+    position: absolute;
+    top: calc(50% + 92px);
+    left: calc(50% - 48px);
+    font-size: var(--font-size-m);
+    line-height: 24px;
+    font-weight: var(--font-weight-normal);
+    /* color: var(--primary-white); */
+    color: var(--primary-red);
+}
+
+.ak_900_01_500x500_1_wrapper {
+    position: absolute;
+    top: calc(50% - 110px);
+    left: calc(50% - 95px);
+    width: 190px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.ak_900_01_500x500_1_icon {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 95px);
+    width: 191px;
+    height: 101px;
+    object-fit: cover;
+}
+
+.vector_icon, .vector_icon4 {
+    position: relative;
+    border-radius: var(--br-11xs-4);
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: var(--font-size-m);
+    color: var(--primary-black);
+    gap: var(--gap-5xs);
+}
+
+.fill_heart_parent{
+    text-align: center;
+    color: var(--secondary-white);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+

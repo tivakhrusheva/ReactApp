@@ -1,0 +1,55 @@
+.frame_div {
+    position: absolute;
+    top: 329px;
+    right: -150px;
+    width: 159px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-20px);
+  }
+
+  .button:hover, #add_less:hover, #add_more:hover, .home:hover, .logo:hover, #headerContainer {
+    cursor: pointer;
+  }
+  .div1 {
+    position: absolute;
+    top: 8px;
+    left: 34px;
+    line-height: 28px;
+    font-weight: var(--font-weight-normal);
+  }
+  .frame_plus,
+  .counter_wrapper {
+    position: relative;
+    height: 44px;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+    margin-left: _1px;
+  }
+  .counter_wrapper {
+    border-top: 1px solid var(--primary-gray);
+    border-bottom: 1px solid var(--primary-gray);
+    box-sizing: border-box;
+    width: 80px;
+    left: 49px;
+  }
+  .frame_minus {
+    position: absolute;
+    right: 100px;
+    border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+    width: 40px;
+    flex-shrink: 0;
+  }
+  .frame_plus {
+    border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+    width: 40px;
+    left: 128px;
+  }
+  .counter_wrapper, .frame_minus, .frame_plus {
+    position: absolute;
+    height: 44px;
+    bottom: 275px;
+  }

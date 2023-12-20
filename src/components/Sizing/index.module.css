@@ -1,0 +1,108 @@
+.size_parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-s);
+    font-family: var(--font-family-inter);
+  }
+  .size_parent {
+    position: absolute;
+    top: 603px;
+    left: 106px;
+    align-items: center;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-20px);
+    font-family: var(--font-family-inter);
+  }
+
+
+.colours {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 20px;
+}
+
+.frame_container,
+.size_parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-s);
+  font-family: var(--font-family-inter);
+}
+.size_parent {
+  position: absolute;
+  top: 603px;
+  left: 106px;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-20px);
+  font-family: var(--font-family-inter);
+}
+
+.xs {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 10px);
+    line-height: 21px;
+    font-weight: var(--font-weight-normal);
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+  }
+  
+.xs_wrapper {
+    position: relative;
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--primary-gray);
+    box-sizing: border-box;
+    width: 34px;
+    height: 34px;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+  }
+.m,
+.s {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 5px);
+    line-height: 21px;
+    font-weight: var(--font-weight-normal);
+    display: inline-block;
+    width: 8px;
+    height: 20px;
+  }
+.m {
+    top: calc(50% - 10px);
+    left: calc(50% - 6px);
+    width: 12px;
+  }
+.m_wrapper {
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--primary-red);
+    width: 32px;
+    height: 32px;
+    /* overflow: hidden; */
+    flex-shrink: 0;
+    color: var(--secondary-white);
+  }
+.l,
+.xl {
+    position: absolute;
+    top: calc(15%);
+    left: calc(40%);
+    line-height: 21px;
+    font-weight: var(--font-weight-normal);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+  }
+.xl {
+    width: 16px;
+    left: calc(30%);
+  }

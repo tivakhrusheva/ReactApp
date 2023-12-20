@@ -1,0 +1,24 @@
+.div2 {
+    position: relative;
+    line-height: 18px;
+    font-size: var(--font-size-m)
+}
+
+.discount_percent {
+    text-align: center;
+    color: var(--secondary-white);
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: var(--br-9xs);
+    background-color: var(--primary-red);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-xs);
+}

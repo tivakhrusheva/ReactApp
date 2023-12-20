@@ -1,0 +1,328 @@
+.footer {
+    background-color: var(--primary-black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-light);
+    position: absolute;
+    top: 1653px;
+    left: 0;
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    color: var(--primary-white);
+}
+
+.frame_wrapper, .icon_copyright_parent {
+    display: flex;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.frame_wrapper,
+.icon_copyright_parent,
+.underline-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon_copyright_parent {
+  gap: var(--gap_7xs);
+}
+.frame_wrapper,
+.underline-group {
+  opacity: 0.6;
+}
+.underline-group {
+  position: absolute;
+  top: 376px;
+  left: 0;
+  flex-direction: column;
+  gap: var(--gap_base);
+  opacity: 0.4;
+}
+
+.icon_copyright_parent {
+    gap: var(--gap_7xs);
+}
+
+.star_half_filled_icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+  
+.exclusivegmailcom {
+    position: relative;
+    line-height: 24px;
+    bottom: 5%;
+}
+
+.frame_parent2,
+.icon_facebook_parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap_5xl);
+}
+
+.frame_parent2 {
+    position: absolute;
+    top: 80px;
+    left: 135px;
+    justify-content: center;
+    gap: var(--gap-68xl);
+    font-size: var(--font-size-20px);
+    color: var(--secondary-white);
+    font-size: var(--font-size-20px);
+    color: var(--secondary-white);
+    position: absolute;
+    max-width: 1400px;
+    max-height: 500px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.frame_parent3,
+.send_mail {
+  display: flex;
+  justify-content: flex-start;
+}
+.send_mail {
+  border-radius: var(--br_9xs);
+  border: 1.5px solid var(--secondary_white);
+  box-sizing: border-box;
+  width: 217px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding_xs) 0 var(--padding_xs) var(--padding_base);
+  gap: var(--gap_13xl);
+  font-size: var(--font-size_m);
+  font-family: var(--font-family_poppins);
+}
+
+.frame_parent3 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap_base);
+  font-size: var(--font-size_l);
+  font-family: var(--font-family_inter);
+}
+
+.logo_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap_5xl);
+}
+
+.logo {
+    position: relative;
+    width: 118px;
+    height: 24px;
+}
+
+.exclusive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-size: var(--font-size_l);
+  font-weight: var(--font-weight_bold);
+}
+
+.subscribe {
+    position: relative;
+    font-size: var(--font-size_20px);
+    line-height: 28px;
+    font-weight: var(--font-weight_normal);
+    font-family: var(--font-family_poppins);
+  }
+
+.get_10_off {
+    position: relative;
+    line-height: 24px;
+    font-size: var(--font-size_m);
+    font-family: var(--font-family_poppins);
+}
+
+.enter_your_email,
+.get_10_off {
+  position: relative;
+  line-height: 24px;
+}
+.get_10_off {
+  font-size: var(--font-size_m);
+  font-family: var(--font-family_poppins);
+}
+.enter_your_email {
+  opacity: 0.4;
+}
+
+.star_half_filled_icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.exclusivegmailcom {
+    position: relative;
+    line-height: 24px;
+}
+
+.frame_parent2,
+.icon_facebook_parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap_5xl);
+}
+.frame_parent2 {
+  position: absolute;
+  top: 80px;
+  left: 135px;
+  justify-content: center;
+  gap: var(--gap_68xl);
+  font-size: var(--font-size_20px);
+  color: var(--secondary_white);
+}
+
+.support {
+    position: relative;
+    line-height: 28px;
+    font-weight: var(--font-weight_normal);
+}
+
+.bijoy_sarani_dhaka_dh_1515_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap_base);
+    font-size: var(--font-size_m);
+}
+
+
+.bijoy_sarani_dhaka {
+    display: inline-block;
+    width: 175px;
+  }
+.bijoy_sarani_dhaka,
+.exclusivegmailcom {
+    position: relative;
+    line-height: 24px;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-light);
+}
+
+.save_3_with_app_new_user_only_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap_9xs);
+  }
+.save_3_with_app_new_user_only_parent {
+    gap: var(--gap_5xs);
+    font-size: var(--_font-size_xs);
+}
+
+.save_3_with {
+    position: relative;
+    line-height: 18px;
+    font-weight: var(--font-weight_normal);
+    opacity: 0.7;
+}
+
+.summer_sale_for_all_swim_suits_parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap_5xs);
+}
+
+.qrcode_1_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
+.googleplay_icon,
+.qr_code {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.googleplay_icon {
+    width: 110px;
+    height: 40px;
+  }
+
+.qr_code {
+  background-color: var(--primary_black);
+  width: 80px;
+  height: 80px;
+}
+
+.download_appstore_icon {
+    position: absolute;
+    top: 2.4px;
+    left: 2.4px;
+    border-radius: var(--br_9xs);
+    width: 105.2px;
+    height: 35.2px;
+    object-fit: cover;
+  }
+.appstore {
+    position: relative;
+    background-color: var(--primary_black);
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+.googleplay_parent,
+.save_3_with_app_new_user_only_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap_9xs);
+  }
+.save_3_with_app_new_user_only_parent {
+    gap: var(--gap_5xs);
+    font-size: var(--_font-size_xs);
+  }
+.frame_parent2,
+.icon_facebook_parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap_5xl);
+}
+
+.dropdown_icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}

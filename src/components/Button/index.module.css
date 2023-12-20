@@ -1,0 +1,24 @@
+.button {
+    left: 190px;
+    bottom: 274.5px;
+    background-color: var(--primary-red);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-29xl);
+    font-size: var(--font-size-m);
+    color: var(--secondary-white);
+    position: absolute;
+    border-radius: var(--br-9xs);
+}
+
+.add_to_cart {
+    position: relative;
+    line-height: 24px;
+    font-weight: var(--font-weight-normal);
+}
+
+.button:hover { 
+    cursor: pointer;
+}
